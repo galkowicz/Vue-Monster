@@ -15,11 +15,6 @@ new Vue({
         },
         turns: []
     },
-    computed: {
-        withLogs: function () {
-            return this.you.damage !== 0;
-        }
-    },
     methods: {
         attack(isSpecial) {
             let text = '';

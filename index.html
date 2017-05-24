@@ -45,7 +45,7 @@
             <button @click="resetGame" id="give-up">GIVE UP</button>
         </div>
     </section>
-    <section v-if="withLogs" class="row log">
+    <section v-if="turns.length != 0" class="row log">
         <div class="small-12 columns">
             <ul>
                 <li
